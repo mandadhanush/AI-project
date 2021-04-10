@@ -37,4 +37,4 @@ terminado==0.9.4
 webencodings==0.5.1
 wincertstore==0.2
 wrapt==1.12.1
-tensorflow
+tensorflow==2.4.1
