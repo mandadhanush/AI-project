@@ -37,4 +37,4 @@ terminado==0.9.4
 webencodings==0.5.1
 wincertstore==0.2
 wrapt==1.12.1
-
+https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.0.0-cp27-none-linux_x86_64.whl
