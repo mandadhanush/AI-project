@@ -73,7 +73,7 @@ def model_predict(img_path, model):
 
 
 @app.route('/', methods=['GET'])
-def index():
+def main():
     # Main page
     return render_template('index.html')
 
@@ -97,9 +97,9 @@ def upload():
     return None
 
 
-#if __name__ == '__main__':
-#    app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True)
     
     
-if __name__ =="__main__":
-   app.run(host='0.0.0.0',port=8080)
+#if __name__ =="__main__":
+#  app.run(host='0.0.0.0',port=8080)
